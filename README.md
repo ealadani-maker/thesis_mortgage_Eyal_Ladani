@@ -9,10 +9,11 @@ This repository holds the code for my thesis on predicting five-year mortgage de
  
 | | Question |
 |---|---|
-| RQ1 | Which model predicts default best? |
-| RQ2 | How does performance differ across borrower risk groups (credit score, LTV, DTI, alone and in pairs)? |
-| RQ3 | How do accuracy and calibration change across origination years, including the 2008 crisis and the 2020 pandemic? |
-| RQ4 | Which features drive the predictions, and do the drivers differ across risk groups? |
+| Main RQ | Do machine learning models produce accurate and interpretable mortgage default predictions across borrower-risk segments and over time, using Freddie Mac loan-level data? |
+| RQ1 | How do logistic regression, random forest, XGBoost, and LightGBM compare in predicting mortgage default using the Freddie Mac dataset? |
+| RQ2 | How do predictive performance and false-negative rates differ across credit score, loan-to-value (LTV), and debt-to-income (DTI), looked at one at a time and in pairs (credit score and LTV, LTV and DTI, credit score and DTI)? |
+| RQ3 | How do accuracy and calibration change for loans originated from 2000 to 2020, and do these changes match major events such as the 2008 crisis, the 2014 Ability-to-Repay/Qualified Mortgage rule, and the 2020 pandemic? |
+| RQ4 | Which features contribute most to the predictions of the best-performing model, and how do these contributions differ across the credit score, LTV, and DTI segments from SQ2? |
  
 ## Design in short
  
